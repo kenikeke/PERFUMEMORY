@@ -29,3 +29,23 @@ footer{
     height: 50px; width: 100%;
 
 }
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.title img{
+    position: relative;
+    width: 250px;
+    top: -50px;
+    z-index: -1;
+    transform: rotate(-50deg);
+}
+.title h1{
+    position: absolute;
+    color: #EEF0F2;
+    top:60px;
+    z-index: 2;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
