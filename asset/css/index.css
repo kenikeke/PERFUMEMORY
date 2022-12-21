@@ -8,10 +8,11 @@
 }
 body {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  flex-direction: column;
 }
 nav {
   position: relative;
