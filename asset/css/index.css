@@ -23,7 +23,7 @@ nav a {
   text-decoration: none;
 }
 nav a span {
-  color: #333;
+  color: #3a3a3a;
   text-decoration: none;
   font-size: 3em;
   padding: 5px 20px;
@@ -32,11 +32,12 @@ nav a span {
   transition: 0.5s;
 }
 nav:hover a span {
-  color: #0002;
+  color: #3a3a3a;
 }
 nav a:hover span {
-  color: #000;
+  color: #3a3a3a;
   background: rgba(255, 255, 255, 1);
+  
 }
 nav a span:before {
   content: "";
@@ -69,4 +70,5 @@ nav a span:before {
   
   background: #545151;
   color: #EEF0F2;
+  
 }
