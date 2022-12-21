@@ -33,18 +33,19 @@ footer{
     display: flex;
     text-align: center;
     justify-content: center;
+    height:190px;
 }
 .title img{
     position: relative;
-    width: 250px;
-    top: -50px;
-    z-index: -1;
-    transform: rotate(-50deg);
+    width: 350px;
+    top: 0px;
+    
+    transform: rotate(-30deg);
 }
 .title h1{
     position: absolute;
     color: #EEF0F2;
-    top:60px;
+    top:85px;
     z-index: 2;
     letter-spacing: 10px;
     font-size: 40px;
