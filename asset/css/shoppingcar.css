@@ -53,13 +53,4 @@ table{
 .shopcart img{
     width: 70px;
 }
-.shopcartcontent{
-    padding: 20PX;
-}
-.shopcartcontent h2{
-    color: #EEF0F2;
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    left: 60PX;
-    font-size: 40PX;
-}
+
