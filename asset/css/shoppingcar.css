@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 60%;
+    height: 450px;
     background-color: #d8dadbac;
     padding: 30px;
     border-radius: 5px;
@@ -17,7 +17,11 @@
 }
 table,tr,td{
     text-align: center;
+    margin: 20px;
 
+}
+table{
+    margin-top: 80px;
 }
 
 .Shopcart h1{
@@ -27,8 +31,9 @@ table,tr,td{
     align-items: center;
     font-family: 'GenRyuMin-M';
     letter-spacing: 1px;
+    
 }
-.Shopcart p{
+.Shopcart p,H3{
     letter-spacing: 1px;
     font-family: 'GenRyuMin-M';
 }
@@ -44,6 +49,9 @@ table,tr,td{
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
+}
+.shopcart img{
+    width: 70px;
 }
 .shopcartcontent{
     padding: 20PX;
