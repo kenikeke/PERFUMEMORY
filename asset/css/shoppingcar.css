@@ -64,7 +64,7 @@ table{
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 250px;
+    height: 350px;
     background-color: #d8dadbac;
     padding: 30px;
     border-radius: 5px;
@@ -72,8 +72,74 @@ table{
     
 
 }
+.Sent h1{
+    position: absolute;
+    top: 10px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 30px;
+}
 .empty {
     position: relative;
     height: 200px;
-    top: 800px;
+    top: 900px;
+}
+
+.sent{
+    display: flex;
+    width: 650px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px none;
+    padding-left: 10px;
+    
+}
+
+.info input:hover {
+    background-color: transparent;
+    transition: 0.5s ease-out;
+    border-radius: 1px solid 3px;
+}
+
+select{
+    width: 120px;
+    height: 30px;
+} 
+
+.way{
+    margin-right: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pay{
+    width: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.paycontent{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.payradio{
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+h2{
+    font-size: 17px;
 }
