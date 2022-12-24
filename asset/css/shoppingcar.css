@@ -1,13 +1,19 @@
-.Shopcart{
-    position: absolute;
-    
-    right: 15%;
-    top: 125px;
+.Big{
+    position: relative;
+    top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+}
+
+.Shopcart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 830px;
     height: 450px;
     background-color: #d8dadbac;
     padding: 30px;
@@ -25,12 +31,12 @@ table{
 }
 
 .Shopcart h1{
-    position: absolute;
-    top: 15px;
     display: flex;
     align-items: center;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 1px;
+    position: absolute;
+    top: 20px;
     
 }
 .Shopcart p,H3{
@@ -40,8 +46,6 @@ table{
 
 
 .shopcart{
-    position: absolute;
-    top: 120px;
     border-radius: 10px;
     width: 100%;
     height: 60%;
@@ -55,34 +59,27 @@ table{
 }
 
 .Sent{
-    position: absolute;
-    
-    right: 15%;
-    top: 650px;
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 830px;
     height: 350px;
     background-color: #d8dadbac;
     padding: 30px;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-top: 30px;
     
 
 }
 .Sent h1{
-    position: absolute;
-    top: 10px;
     font-family: 'Mukta', sans-serif;
-    margin-top: 30px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 20px;
 }
-.empty {
-    position: relative;
-    height: 200px;
-    top: 900px;
-}
+
 
 .sent{
     display: flex;
@@ -143,3 +140,28 @@ select{
 h2{
     font-size: 17px;
 }
+
+.btn_buy {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    
+}
+.btn_buy input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px ;
+    border: none;
+    background-color: #3a3a3a;
+    color:#EEF0F2;
+    cursor: pointer;
+}
+
+.btn_buy input:hover{
+    background-color: #EEF0F2;;
+    color:#3a3a3a;
+    transition: 0.5s;
+    border: 1px solid #3a3a3a;
+}
+
