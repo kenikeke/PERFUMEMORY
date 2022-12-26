@@ -54,6 +54,7 @@ table{
     flex-direction: column;
     align-items: stretch;
 }
+
 .shopcart img{
     width: 70px;
 }
@@ -164,4 +165,21 @@ h2{
     transition: 0.5s;
     border: 1px solid #3a3a3a;
 }
+.big_btn_cart{
+    display: flex;
+    
+    justify-content: center;
+}
+.btn_cart{
+    border: 1px solid ;
+    width: fit-content;
+    display:flex;
+    height: 30px;
+}
 
+#num,#up,#down,#Num,#Up,#Down{
+    text-align: center;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
