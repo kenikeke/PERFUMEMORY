@@ -62,7 +62,13 @@
                             <td class="cart-img"><img src="../asset/img/BYREDO1.png" alt=""></td>
                             <td class="cart-text"><h3 style="text-align: left;">BYREDO<h3><p style="font-size: 15px; text-align: left;">無人之境淡香精 50ml</p></td>
                             <td>$4,999</td>
-                            <td>1</td>
+                            <td><div class="big_btn_cart">
+                                <div class="btn_cart">
+                                    <input type="button" id="down" value="-">
+                                    <input type="text" id="num" value="1">
+                                    <input type="button" id="up" value="+">
+                                </div>
+                            </div></td>
                             <td>$4,999</td>
             
                         </tr>
@@ -71,7 +77,13 @@
                             <td class="cart-img"><img src="../asset/img/BYREDO1.png" alt=""></td>
                             <td class="cart-text"><h3 style="text-align: left;">BYREDO<h3><p style="font-size: 15px; text-align: left;">無人之境淡香精 50ml</p></td>
                             <td>$4,999</td>
-                            <td>1</td>
+                            <td><div class="big_btn_cart">
+                                <div class="btn_cart">
+                                    <input type="button" id="Down" value="-">
+                                    <input type="text" id="Num" value="1">
+                                    <input type="button" id="Up" value="+" >
+                                </div>
+                            </div></td>
                             <td>$4,999</td>
                         </tr>
                         <tr>
@@ -162,7 +174,40 @@
 
 
 
+<script>
 
+  var Add = document.getElementById("up")
+  var Reduce = document.getElementById("down")
+  var num = document.getElementById("num")
+
+  Add.onclick = function(){
+    num.value = parseInt(num.value)+1;
+  }
+
+  Reduce.onclick = function(){
+    if(num.value <= 0){
+        num.value = 0;
+    }else{
+        num.value = parseInt(num.value)-1;
+    }
+  }
+
+  var add = document.getElementById("Up")
+  var reduce = document.getElementById("Down")
+  var Num = document.getElementById("Num")
+
+  add.onclick = function(){
+    Num.value = parseInt(Num.value)+1;
+  }
+
+  reduce.onclick = function(){
+    if(Num.value <= 0){
+        Num.value = 0;
+    }else{
+        Num.value = parseInt(Num.value)-1;
+    }
+  }
+</script>
     
 </body>
 </html>
