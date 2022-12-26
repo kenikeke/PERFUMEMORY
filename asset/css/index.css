@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
+.smellbig {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -33,7 +33,7 @@ nav a span {
   transition: 0.5s;
 }
 nav:hover a span {
-  color: #3a3a3a;
+  color:#3a3a3a;
 }
 nav a:hover span {
   color: #3a3a3a;
@@ -70,7 +70,7 @@ nav a span:hover:before {
 }
 nav a span:before {
   
-  background: #545151;
-  color: #EEF0F2;
+  color: #545151;
+  background-color: transparent;
   
 }
