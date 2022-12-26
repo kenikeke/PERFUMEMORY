@@ -163,7 +163,7 @@
                 </div>
 
                <div class="btn_buy">
-                    <input type="button" value="BUY">
+                    <input type="button" value="BUY" onclick="confirmalert()">
                </div>
         </div>
         </form>
@@ -207,6 +207,17 @@
         Num.value = parseInt(Num.value)-1;
     }
   }
+
+
+    function confirmalert(){
+        var yes = confirm('是否已確認訂單無誤 ?')
+
+        if(yes){
+            alert('購買成功 ! ')
+        }else{
+            alert('您已按取消，請重新下單。')
+        }
+    }
 </script>
     
 </body>
