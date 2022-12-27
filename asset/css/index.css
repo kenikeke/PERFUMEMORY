@@ -184,9 +184,17 @@ article {
   height: 400px;
   display: flex;
   background-color: #c81a1a;
+  flex-direction: column;
+  align-items: center;
 }
 
 .p1 {
   position: relative;
   top: 400px;
+}
+
+.smell_div {
+  display: flex;
+  flex-direction: column;
+  
 }
