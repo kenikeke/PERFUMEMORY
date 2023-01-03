@@ -95,7 +95,7 @@
   }
   
   
-  dialog{
+  #pointhistory{
     width: fit-content;
     height: fit-content;
     background-color: transparent;
@@ -163,7 +163,7 @@
     position: relative;
     display: flex;
     padding: 20px;
-    background-color: #757879d8;
+    background-color: #757879fd;
     border-radius: 10px;
     border:  solid 8px #3a3a3a;
     width: 450px;
