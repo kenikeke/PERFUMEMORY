@@ -225,14 +225,7 @@ a {
 
 
 /*標籤下拉*/
-.dropbtn {
-  background-color: #eccdd7;
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+
 
 .dropdown {
   position: relative;
