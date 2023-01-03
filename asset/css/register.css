@@ -87,11 +87,19 @@
   }
   
   
-  dialog{
-    width: fit-content;
+#show{
+    width: 300px;
     height: fit-content;
-    background-color: transparent;
+    position: absolute;
+    top: 25%;
+    left: 45%;
     border: none;
+    padding: 20px;
+  }
+  #userupdate{
+    top: 10%;
+    left: 15%;
+    padding-top: 20px;
   }
   
   .btndiv{
@@ -125,4 +133,25 @@
 #go_register{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 300px;
+  
+}
+.push{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginh2{
+  display: flex;
+  width: 100%;
+  justify-content: center
 }
