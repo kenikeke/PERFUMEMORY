@@ -14,7 +14,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+#show {
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border: none;
+    padding: 20px;
+}
 .item-img {
     float: left;
 }
