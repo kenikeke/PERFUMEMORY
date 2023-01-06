@@ -39,7 +39,7 @@ nav a span {
 }
 
 nav:hover a span {
-  color: #3a3a3a;
+  color: #3a3a3a62;
 }
 
 nav a:hover span {
@@ -188,11 +188,11 @@ article {
 /*頁面下廣告*/
 .ad1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /*min-height: 100vh;*/
   flex-direction: column;
   padding: 10px;
+}
+.ad1 img{
+  width: 100%;
 }
 
 footer {
