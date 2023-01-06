@@ -1,0 +1,207 @@
+.item {
+    position: relative;
+    top: 130px;
+    /* left: 250px; */
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.right-content {
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-img {
+    float: left;
+}
+
+.perfumeimg {
+    width: 370px;
+}
+
+.item-title {
+    display: flex;
+    /*字體*/
+    font-size: 45px;
+    font-weight: bold;
+    font-family: NSimSun;
+
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.price-and-amount {
+    display: flex;
+    flex-direction: column;
+}
+
+
+article {
+    background-color: transparent;
+    height: 1600px;
+}
+
+.zi_box_1 {
+    border: 2px solid #444444;
+    margin: 2em 0;
+    padding: 20px;
+    position: relative;
+    /* left: 280px; */
+    top: 230px;
+    box-shadow: 2px 2px 1px #c7c7c7;
+    border-radius: 8px;
+    width: 800px;
+    height: fit-content;
+}
+
+.zi_box_1::before {
+    background-color: #eef0f2;
+    color: #8b9bab;
+    content: "寫下評論";
+    font-weight: bold;
+    left: 1em;
+    padding: 0 0.5em;
+    position: absolute;
+    top: -1em;
+}
+
+
+.zi_box_2 {
+    border: 2px solid #444444;
+    margin: 2em 0;
+    padding: 20px;
+    position: relative;
+    /* left: 280px; */
+    top: 250px;
+    box-shadow: 2px 2px 1px #c7c7c7;
+    border-radius: 8px;
+    
+    height: 500px;
+}
+
+.zi_box_2::before {
+    background-color: #eef0f2;
+    color: #8b9bab;
+    content: "其他評論";
+    font-weight: bold;
+    left: 1em;
+    padding: 0 0.5em;
+    position: absolute;
+    top: -1em;
+}
+
+.checked {
+    color: orange;
+}
+
+.downitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.downname {
+    display: flex;
+    padding: 10px;
+}
+
+.downimg {
+    display: flex;
+}
+
+.downcomment {
+    display: flex;
+    padding: 10px;
+}
+
+.downstar {
+    display: flex;
+    padding: 10px;
+}
+
+.us {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.btn_buy {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.btn_buy input {
+    width: 180px;
+    height: 35px;
+}
+
+.btn_buy input:hover {
+    background-color: #EEF0F2;
+    color: #3a3a3a;
+    transition: 0.5s;
+    border: 1px solid #3a3a3a;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.setflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+}
+.textflex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textflex input{
+    margin: 10px 10px;
+    padding:10 px;
+    width:50%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #757879ac ;
+    background-color:transparent;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.btn_send{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px ;
+    border: none;
+    background-color: #3a3a3a;
+    color:#EEF0F2;
+    cursor: pointer;
+}
+.btn_send:hover{
+    background-color: #EEF0F2;;
+    color:#3a3a3a;
+    transition: 0.5s;
+    border: 1px solid #3a3a3a;
+}
+.sendbtn{
+    display: flex;
+    justify-content: center;
+}
